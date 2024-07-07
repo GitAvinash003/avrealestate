@@ -1,0 +1,229 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.nav{
+    float:  left;
+}
+.slider{
+    width: 500px;
+    height: 600px;
+}
+.title{
+    color: black;
+    font-size: larger;
+    font-weight:bolder;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.about_body{
+margin-top:20px;
+background:#F0F8FF;
+}
+.text-custom{
+    color: #0062ff !important;
+    }
+
+/* services */
+    service_body{
+        margin-top:20px;
+        background:#eee;
+    }
+    .card::after {
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 20px;
+        width: calc(100% - 40px);
+        height: 35px;
+        background-color: #fff;
+        -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+        box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+        content: '';
+        z-index: -1;
+    }
+    a.card {
+        text-decoration: none;
+    }
+    
+    .card {
+        position: relative;
+        border: 0;
+        border-radius: 0;
+        background-color: #fff;
+        -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+        box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+    }
+    .card {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,0.125);
+        border-radius: .25rem;
+    }
+    
+    .box-shadow {
+        -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+        box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+    }
+    
+    .ml-auto, .mx-auto {
+        margin-left: auto !important;
+    }
+    .mr-auto, .mx-auto {
+        margin-right: auto !important;
+    }
+    .rounded-circle {
+        border-radius: 50% !important;
+    }
+    .bg-white {
+        background-color: #fff !important;
+    }
+    
+    .ml-auto, .mx-auto {
+        margin-left: auto !important;
+    }
+    
+    .mr-auto, .mx-auto {
+        margin-right: auto !important;
+    }
+    .d-block {
+        display: block !important;
+    }
+    img, figure {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    
+    .card-text {
+        padding-top: 12px;
+        color: #8c8c8c;
+    }
+    
+    .text-sm {
+        font-size: 12px !important;
+    }
+    p, .p {
+        margin: 0 0 16px;
+    }
+    
+    .card-title {
+        margin: 0;
+        font-family: "Montserrat",sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    
+    .pt-1, .py-1 {
+        padding-top: .25rem !important;
+    }
+    
+    .head-icon{
+        margin-top:18px;
+        color:#FF4500
+    }
+
+  /* contact*/
+.contact4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+  color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact4 .form-control:focus {
+  border-color: #ffffff;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+    background-color: #188ef4 !important;
+}
+
+.contact4 .text-inverse {
+    color: #3e4555 !important;
+}
+
+@media (min-width: 1024px) {
+	.contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+			position: relative;
+			bottom: -95px;
+	}
+}
+
+/*chatbot*/
+.sticky-circle {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to position the circle */
+    right: 20px; /* Adjust this value to position the circle */
+    width: 60px; /* Diameter of the circle */
+    height: 60px; /* Diameter of the circle */
+    background-color: #ffffff; /* Background color of the circle */
+    border: 2px solid #04f500; /* Border color of the circle */
+    border-radius: 50%; /* Make it a circle */
+    text-align: center;
+    margin-top: 80%;
+    z-index: 1999; /* Ensure it stays on top of other elements */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ensure it's above other content */
+  }
+  .sticky-circle a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #04f500; /* Color of the WhatsApp icon */
+}
+
